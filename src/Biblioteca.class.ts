@@ -10,4 +10,12 @@ export default class Biblioteca{
         this.livros = livros;
     }
 
+    public remover_devedor(aluno:string):void{
+        console.log(`${this.alunos_registrados} Devedor removido.`);
+    }
+    
+    public adicionar_devedor(aluno:Aluno):void{
+        console.log(`${this.alunos_registrados} Devedor adicionado.`);
+}
+
 }
