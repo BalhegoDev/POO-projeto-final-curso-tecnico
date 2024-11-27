@@ -11,6 +11,16 @@ export default class Diretora extends Diretoria {
         this.idade = idade;
     }
 
+    getProfessoresDemitidos():any
+    {
+        return this.professoresDemitidos;
+    }
+
+    getProfessoresAtivos():any
+    {
+        return this.professoresAtivos;
+    }
+
     contratar(professor:Professor){
         this.contratarProfessor(professor);
     }
